@@ -1,24 +1,54 @@
-# README
+# heartBeet
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Keeping your stomach happy with a heartful meal ❤️
 
-Things you may want to cover:
+## Table of Contents
 
-* Ruby version
+* General Info
+* Features
+* Status
+* Challenges
+* How to Collaborate
+* Contact
+* Technologies
 
-* System dependencies
+## General Info
 
-* Configuration
+heartBeet will make sure you do not skip your next meal! Choose from any of the dishes to find an easy to follow recipe card!
 
-* Database creation
+## Features
 
-* Database initialization
+* View various recipes with images
+* Select a single recipe
+  * Browse recipe attributes
+* Add recipe
 
-* How to run the test suite
+Future features and functions:
+* Create sign in
+* Refactor
 
-* Services (job queues, cache servers, search engines, etc.)
 
-* Deployment instructions
+## Status
 
-* ...
+MVP is finished!
+
+## Challenges
+
+Github Collaboration
+
+## How to Collaborate 
+
+* Github
+* Zoom
+* Slack
+
+## Contact
+[Ryan Choe](https://www.linkedin.com/in/ryanchoe1229/)
+[Mary Beth Ingram](https://www.linkedin.com/in/mbingram/) 
+
+## Technologies
+
+* Rails
+* JavaScript
+* HTML
+* CSS
