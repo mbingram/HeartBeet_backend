@@ -10,7 +10,7 @@ avocado_toast = Recipe.create(
   description: 'Take one piece of bread and toast. Take one avocado, slice up the avocado and mash. Apply mashed avocado on toast',
   difficulty: 'Easy',
   meal_type: 'Breakfast',
-  image: 'https://cdn.loveandlemons.com/wp-content/uploads/2020/01/how-to-make-avocado-toast.jpg'
+  image: 'https://www.jessicagavin.com/wp-content/uploads/2020/07/avocado-toast-20-1200.jpg'
 )
 
 tuna_salad = Recipe.create(
@@ -22,7 +22,7 @@ tuna_salad = Recipe.create(
   Season with salt and pepper. Serve on lettuce or bread as a sandwich.',
   difficulty: 'Easy',
   meal_type: 'Lunch',
-  image: 'https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/shot-4-0352-1522855625.png?crop=1xw:0.8888888888888888xh;center,top&resize=980:*'
+  image: 'https://www.flavcity.com/wp-content/uploads/2019/11/tuna-salad-3.jpg'
 )
 
 breakfast_quesadilla = Recipe.create(
@@ -54,7 +54,7 @@ black_bean_burger = Recipe.create(
   Toast bun, and spread mustard (and mayo-optional) on both pieces of bun.
   Slice red onion, tomato and avocado, place on side of bun along with pickle slices, and place the burger on the other side.
   Close it up and dig in!",
-  difficulty: 3,
+  difficulty: 'Easy',
   meal_type: 'Lunch or Dinner',
   image: 'https://elavegan.com/wp-content/uploads/2020/02/close-up-of-vegan-black-bean-burger-with-veggies-and-cheese.jpg'
 )
@@ -67,7 +67,7 @@ spaghetti = Recipe.create(
   Reserve about 1 cup pasta water, drain the noodles.
   In a sauce pan over low-medium heat, add pasta, pasta water, and sauce.
   Cook for about 2 - 3 minutes, or until pasta in finished cooking and sauce has condensed.",
-  difficulty: 3,
+  difficulty: 'Easy',
   meal_type: 'Dinner',
   image: 'https://www.thewholesomedish.com/wp-content/uploads/2020/08/The-Best-Classic-Spaghetti-1200-500x375.jpg'
 )
@@ -81,8 +81,9 @@ grilled_cheese = Recipe.create(
   Allow cheese to melt slightly and then press the two sides together.
   Toast both sides of sandwich evenly.
   Remove from pan and CUT DIAGONALLY!",
-  difficulty: 2,
-  meal_type: 'Any Time'
+  difficulty: 'Easy',
+  meal_type: 'Any Time',
+  image: 'https://i.insider.com/5ad50678146e711f008b473a?width=1136&format=jpeg'
 )
 
 
