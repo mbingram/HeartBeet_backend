@@ -10,7 +10,7 @@ class RecipesController < ApplicationController
   end
 
   def create
-    Ingredient.create(
+    Recipe.create(
       rating: params[:rating],
       name: params[:name],
       description: params[:description],
@@ -18,6 +18,8 @@ class RecipesController < ApplicationController
       meal_type: params[:meal_type],
       image: params[:image]
     )
+
+    redirect_to "http://localhost:3001"
 
   end
 end

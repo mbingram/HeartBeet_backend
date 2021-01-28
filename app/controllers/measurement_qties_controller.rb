@@ -1,16 +1,16 @@
 class MeasurementQtiesController < ApplicationController
   def index
-    @measurement_qties = Ingredient.all
+    @measurement_qties = MeasurementQty.all
     render json: @measurement_qties
   end
 
   def show
-    @measurement_qty = Ingredient.find(params[:id])
+    @measurement_qty = MeasurementQty.find(params[:id])
     render json: @measurement_qty
   end
 
   def create
-    Ingredient.create(
+    MeasurementQty.create(
       amount: params[:amount]
     )
 
